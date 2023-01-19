@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "hashtek-terraform-state-bucket"
+    bucket = "hastag-terraform-project-maahiInfo"
     key = "main"
     region = "ap-south-1"
-    dynamodb_table = "hashtekTerraformStatelock"
+    dynamodb_table = "hashtagTerraformStatelock"
   }
 }
